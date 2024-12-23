@@ -4,9 +4,9 @@ function UseState1() {  //{inputValue,setInputValue}
     const [inputValue, setInputValue] = useState("");
     
   return (
-     <div className='h-[30%] w-[90%] rounded-xl bg-slate-600  p-5 m-5   '>
+     <div className='h-[50%] w-[90%] rounded-xl bg-slate-600  p-5 m-5   '>
         <div className=''>
-        <input type="text"className='rounded-lg w-full p-2' 
+        <input type="text"className='rounded-lg w-full p-2 ' 
         placeholder='enter any message'
         value={inputValue} 
         onChange={(e)=>setInputValue(e.target.value)}/> 
